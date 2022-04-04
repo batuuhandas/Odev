@@ -1,0 +1,9 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Detay sayfasında olduğumuz kontrol edilir
+*"//*[@class='android.view.ViewGroup']/android.widget.TextView" li element gorunur mu
+# Favoriler kısmına gidilir
+*Id li "com.ozdilek.ozdilekteyim:id/relLayFav" elemetin sayfada gorunur olduğunu kontrol et ve tıkla
+#Urun sepete eklenir
+*Xpathli "//*[@text='SEPETE EKLE']" elemetin sayfada gorunur olduğunu kontrol et ve tıkla

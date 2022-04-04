@@ -1,0 +1,11 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+#Kadin kategorisinden kot pantolon kismina gidilir
+  * "3" saniye kadar bekle
+  * Xpathli "//*[@resource-id='com.ozdilek.ozdilekteyim:id/tv_startShoppingStore']" elemetin sayfada gorunur olduğunu kontrol et ve tıkla
+  * Id li "com.ozdilek.ozdilekteyim:id/nav_categories" elemetin sayfada gorunur olduğunu kontrol et ve tıkla
+  * Xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerCategories']/android.widget.RelativeLayout[2]" li elementi bul ve tikla
+  * "3" saniye kadar bekle
+  * Xpath "//*[@class='androidx.recyclerview.widget.RecyclerView']/android.widget.RelativeLayout[14]" li elementi bul ve tikla
+  * "3" saniye kadar bekle

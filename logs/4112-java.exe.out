@@ -1,0 +1,59 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: A number (2) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 2857milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2857"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 49693"}
+{"logLevel":"info","message":"Listening on port:49693"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BasePage.swipeUptwice' and 'BasePage.swipeUptwice'"}
+{"logLevel":"debug","message":"Found Sayfayı aşağı doğru 2 kez kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.findByelementWithIdAndClick' and 'BasePage.findByelementWithIdAndClick'"}
+{"logLevel":"debug","message":"Found Id li {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.waitForsecond' and 'BasePage.waitForsecond'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'LoginPage.klavyeKapat' and 'LoginPage.klavyeKapat'"}
+{"logLevel":"debug","message":"Found Klavye kapatılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'LoginPage.yazdır' and 'LoginPage.yazdır'"}
+{"logLevel":"debug","message":"Found {} yazılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'ProductPage.randomProductClick' and 'ProductPage.randomProductClick'"}
+{"logLevel":"debug","message":"Found {} ürün seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'LoginPage.yaz' and 'LoginPage.yaz'"}
+{"logLevel":"debug","message":"Found {} li elemente istenilen değer {} yazılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'ProductPage.getTextWithXpath' and 'ProductPage.getTextWithXpath'"}
+{"logLevel":"debug","message":"Found Xpathli {} in texti alinir ve kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.swipeUp' and 'BasePage.swipeUp'"}
+{"logLevel":"debug","message":"Found Sayfayı aşağı doğru kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.findByelementWithXpathAndClick' and 'BasePage.findByelementWithXpathAndClick'"}
+{"logLevel":"debug","message":"Found Xpathli {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickByxpath' and 'BasePage.clickByxpath'"}
+{"logLevel":"debug","message":"Found Xpath {} li elementi bul ve tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'ProductPage.isDisplayed' and 'ProductPage.isDisplayed'"}
+{"logLevel":"debug","message":"Found {} li element gorunur mu in current project scope."}
+{"logLevel":"debug","message":"Comparing 'LoginPage.geriGit' and 'LoginPage.geriGit'"}
+{"logLevel":"debug","message":"Found Geri gidilir in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tSayfayı aşağı doğru kaydır : public void swipeUp()"}
+{"logLevel":"debug","message":"\t{} yazılır : public void yazdır(String text)"}
+{"logLevel":"debug","message":"\tXpath {} li elementi bul ve tikla : public void clickByxpath(String xpath)"}
+{"logLevel":"debug","message":"\t{} li elemente istenilen değer {} yazılır : public void yaz(String xpath, String text)"}
+{"logLevel":"debug","message":"\tGeri gidilir : public void geriGit()"}
+{"logLevel":"debug","message":"\tSayfayı aşağı doğru 2 kez kaydır : public void swipeUptwice()"}
+{"logLevel":"debug","message":"\t{} ürün seçilir : public void randomProductClick(String random)"}
+{"logLevel":"debug","message":"\tId li {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla : public void findByelementWithIdAndClick(String id)"}
+{"logLevel":"debug","message":"\tXpathli {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla : public void findByelementWithXpathAndClick(String xpath)"}
+{"logLevel":"debug","message":"\t{} li element gorunur mu : public boolean isDisplayed(String xpath)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForsecond(ınt s) throws InterruptedException"}
+{"logLevel":"debug","message":"\tXpathli {} in texti alinir ve kontrol edilir : public void getTextWithXpath(String xpath)"}
+{"logLevel":"debug","message":"\tKlavye kapatılır : public void klavyeKapat()"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

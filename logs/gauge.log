@@ -1,0 +1,291 @@
+04-04-2022 16:30:54.932 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\testinium\Odev\.gauge\screenshots
+04-04-2022 16:30:54.936 [Gauge] [DEBUG] Plugin java is already installed.
+04-04-2022 16:30:54.937 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-04-2022 16:30:54.939 [Gauge] [DEBUG] Parsing started.
+04-04-2022 16:30:54.939 [Gauge] [DEBUG] Started concepts parsing.
+04-04-2022 16:30:54.941 [Gauge] [ERROR] [ParseError] C:\Users\testinium\Odev\specs\GirisSayfasi.cpt:14 Circular reference found in concept. "Klavye kapatılır" => C:\Users\testinium\Odev\specs\GirisSayfasi.cpt:13 => 'Klavye kapatılır'
+04-04-2022 16:30:54.941 [Gauge] [ERROR] [ParseError] C:\Users\testinium\Odev\specs\GirisSayfasi.cpt:13 Circular reference found in concept. "Klavye kapatılır" => C:\Users\testinium\Odev\specs\GirisSayfasi.cpt:14 => 'Klavye kapatılır'
+04-04-2022 16:30:54.941 [Gauge] [DEBUG] 7 concepts parsing completed.
+04-04-2022 16:30:54.942 [Gauge] [DEBUG] Started specifications parsing.
+04-04-2022 16:30:54.942 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-04-2022 16:30:54.943 [Gauge] [DEBUG] Parsing completed.
+04-04-2022 16:30:54.966 [java] [DEBUG] ***** Printing Properties/Env Values *****
+04-04-2022 16:30:54.966 [java] [DEBUG] PATH: C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Program Files (x86)\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\maven\apache-maven-3.8.5\bin;C:\Program Files\Gauge\bin;C:\Users\testinium\AppData\Local\Android\Sdk\platform-tools;C:\Users\testinium\AppData\Local\Android\Sdk\build-tools;C:\Users\testinium\AppData\Local\Android\Sdk\platforms;C:\Users\testinium\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\testinium\AppData\Local\GitHubDesktop\bin;C:\Users\testinium\AppData\Roaming\npm;%!A(MISSING)NDROID_HOME\platform-tools%!;(MISSING)%!A(MISSING)NDROID_HOME\tools%!;(MISSING)%!A(MISSING)NDROID_HOME\build-tools%!;(MISSING);C:\Users\testinium\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+04-04-2022 16:30:54.966 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk1.8.0_202
+04-04-2022 16:30:54.966 [java] [DEBUG] gauge_project_root: C:\Users\testinium\Odev
+04-04-2022 16:30:54.966 [java] [DEBUG] gauge_parallel_streams_count: 
+04-04-2022 16:30:54.966 [java] [DEBUG] gauge_reports_dir: reports
+04-04-2022 16:30:54.966 [java] [DEBUG] overwrite_reports: true
+04-04-2022 16:30:54.966 [java] [DEBUG] logs_directory: logs
+04-04-2022 16:30:54.966 [java] [DEBUG] enable_multithreading: 
+04-04-2022 16:30:54.966 [java] [DEBUG] gauge_specs_dir: specs
+04-04-2022 16:30:54.966 [java] [DEBUG] csv_delimiter: ,
+04-04-2022 16:30:54.966 [java] [DEBUG] gauge_java_home: 
+04-04-2022 16:30:54.966 [java] [DEBUG] gauge_custom_build_path: 
+04-04-2022 16:30:54.966 [java] [DEBUG] gauge_additional_libs: libs/*
+04-04-2022 16:30:54.966 [java] [DEBUG] gauge_jvm_args: 
+04-04-2022 16:30:54.966 [java] [DEBUG] gauge_custom_compile_dir: 
+04-04-2022 16:30:54.966 [java] [DEBUG] gauge_clear_state_level: scenario
+04-04-2022 16:30:54.966 [java] [DEBUG] ***** END *****
+04-04-2022 16:30:55.742 [Gauge] [DEBUG] Checking updates...
+04-04-2022 16:30:55.745 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-04-2022 16:30:56.361 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-04-2022 16:30:56.531 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-04-2022 16:30:56.680 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-04-2022 16:30:56.826 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-04-2022 16:30:57.957 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Users\testinium\Odev\target\test-classes;C:\Users\testinium\.m2\repository\com\thoughtworks\gauge\gauge-java\0.8.1\gauge-java-0.8.1.jar;C:\Users\testinium\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\testinium\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\testinium\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\testinium\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\testinium\.m2\repository\com\github\javaparser\javaparser-core\3.16.3\javaparser-core-3.16.3.jar;C:\Users\testinium\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\testinium\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\testinium\.m2\repository\org\json\json\20211205\json-20211205.jar;C:\Users\testinium\.m2\repository\com\google\protobuf\protobuf-java\3.19.3\protobuf-java-3.19.3.jar;C:\Users\testinium\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\testinium\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\testinium\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\testinium\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\testinium\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\testinium\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-netty-shaded\1.43.2\grpc-netty-shaded-1.43.2.jar;C:\Users\testinium\.m2\repository\io\perfmark\perfmark-api\0.23.0\perfmark-api-0.23.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-core\1.43.2\grpc-core-1.43.2.jar;C:\Users\testinium\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\testinium\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.19\animal-sniffer-annotations-1.19.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf\1.43.2\grpc-protobuf-1.43.2.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-api\1.43.2\grpc-api-1.43.2.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-context\1.43.2\grpc-context-1.43.2.jar;C:\Users\testinium\.m2\repository\com\google\api\grpc\proto-google-common-protos\2.0.1\proto-google-common-protos-2.0.1.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf-lite\1.43.2\grpc-protobuf-lite-1.43.2.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-stub\1.43.2\grpc-stub-1.43.2.jar;C:\Users\testinium\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\testinium\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\testinium\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\testinium\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\testinium\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\testinium\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\testinium\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\testinium\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\testinium\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\testinium\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\testinium\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\testinium\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\testinium\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\testinium\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\testinium\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\testinium\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\testinium\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\testinium\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\testinium\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\testinium\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\testinium\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\testinium\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+04-04-2022 16:30:58.025 [java] [DEBUG] found java executable in C:\Program Files\Java\jdk1.8.0_202\jre\bin\java.exe
+04-04-2022 16:30:58.025 [java] [DEBUG] running - C:\Program Files\Java\jdk1.8.0_202\jre\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+04-04-2022 16:30:58.025 [java] [DEBUG] stdout/stderr is logged to logs\14140-java.exe.out
+04-04-2022 16:30:58.174 [java] [DEBUG] multithreading is set to false
+04-04-2022 16:30:58.457 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+04-04-2022 16:30:59.942 [java] [DEBUG] gauge-java took 1753milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+04-04-2022 16:30:59.942 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1753
+04-04-2022 16:30:59.942 [java] [DEBUG] starting gRPC server...
+04-04-2022 16:31:00.540 [java] [DEBUG] started gRPC server on port 64958
+04-04-2022 16:31:00.540 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64958
+04-04-2022 16:31:01.000 [Gauge] [DEBUG] Successfully made the connection with runner with port: 64958
+04-04-2022 16:31:01.001 [Gauge] [DEBUG] Validation started.
+04-04-2022 16:31:02.681 [java] [DEBUG] Scanning packages for steps
+04-04-2022 16:31:02.710 [java] [DEBUG] Comparing 'BasePage.swipeUptwice' and 'BasePage.swipeUptwice'
+04-04-2022 16:31:02.710 [java] [DEBUG] Found Sayfayı aşağı doğru 2 kez kaydır in current project scope.
+04-04-2022 16:31:02.710 [java] [DEBUG] Comparing 'BasePage.findByelementWithIdAndClick' and 'BasePage.findByelementWithIdAndClick'
+04-04-2022 16:31:02.710 [java] [DEBUG] Found Id li {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla in current project scope.
+04-04-2022 16:31:02.710 [java] [DEBUG] Comparing 'BasePage.waitForsecond' and 'BasePage.waitForsecond'
+04-04-2022 16:31:02.710 [java] [DEBUG] Found {} saniye kadar bekle in current project scope.
+04-04-2022 16:31:02.711 [java] [DEBUG] Comparing 'LoginPage.klavyeKapat' and 'LoginPage.klavyeKapat'
+04-04-2022 16:31:02.711 [java] [DEBUG] Found Klavye kapatılır in current project scope.
+04-04-2022 16:31:02.711 [java] [DEBUG] Comparing 'LoginPage.yazdır' and 'LoginPage.yazdır'
+04-04-2022 16:31:02.711 [java] [DEBUG] Found {} yazılır in current project scope.
+04-04-2022 16:31:02.711 [java] [DEBUG] Comparing 'ProductPage.randomProductClick' and 'ProductPage.randomProductClick'
+04-04-2022 16:31:02.711 [java] [DEBUG] Found {} ürün seçilir in current project scope.
+04-04-2022 16:31:02.711 [java] [DEBUG] Comparing 'LoginPage.yaz' and 'LoginPage.yaz'
+04-04-2022 16:31:02.711 [java] [DEBUG] Found {} li elemente istenilen değer {} yazılır in current project scope.
+04-04-2022 16:31:02.711 [java] [DEBUG] Comparing 'ProductPage.getTextWithXpath' and 'ProductPage.getTextWithXpath'
+04-04-2022 16:31:02.711 [java] [DEBUG] Found Xpathli {} in texti alinir ve kontrol edilir in current project scope.
+04-04-2022 16:31:02.711 [java] [DEBUG] Comparing 'BasePage.swipeUp' and 'BasePage.swipeUp'
+04-04-2022 16:31:02.711 [java] [DEBUG] Found Sayfayı aşağı doğru kaydır in current project scope.
+04-04-2022 16:31:02.711 [java] [DEBUG] Comparing 'BasePage.findByelementWithXpathAndClick' and 'BasePage.findByelementWithXpathAndClick'
+04-04-2022 16:31:02.711 [java] [DEBUG] Found Xpathli {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla in current project scope.
+04-04-2022 16:31:02.711 [java] [DEBUG] Comparing 'BasePage.clickByxpath' and 'BasePage.clickByxpath'
+04-04-2022 16:31:02.711 [java] [DEBUG] Found Xpath {} li elementi bul ve tikla in current project scope.
+04-04-2022 16:31:02.712 [java] [DEBUG] Comparing 'ProductPage.isDisplayed' and 'ProductPage.isDisplayed'
+04-04-2022 16:31:02.712 [java] [DEBUG] Found {} li element gorunur mu in current project scope.
+04-04-2022 16:31:02.713 [java] [DEBUG] Comparing 'LoginPage.geriGit' and 'LoginPage.geriGit'
+04-04-2022 16:31:02.713 [java] [DEBUG] Found Geri gidilir in current project scope.
+04-04-2022 16:31:02.713 [java] [DEBUG] Scanning packages for hooks
+04-04-2022 16:31:02.723 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+04-04-2022 16:31:02.724 [java] [DEBUG] 	Sayfayı aşağı doğru kaydır : public void swipeUp()
+04-04-2022 16:31:02.724 [java] [DEBUG] 	{} yazılır : public void yazdır(String text)
+04-04-2022 16:31:02.724 [java] [DEBUG] 	Xpath {} li elementi bul ve tikla : public void clickByxpath(String xpath)
+04-04-2022 16:31:02.724 [java] [DEBUG] 	{} li elemente istenilen değer {} yazılır : public void yaz(String xpath, String text)
+04-04-2022 16:31:02.724 [java] [DEBUG] 	Geri gidilir : public void geriGit()
+04-04-2022 16:31:02.724 [java] [DEBUG] 	Sayfayı aşağı doğru 2 kez kaydır : public void swipeUptwice()
+04-04-2022 16:31:02.724 [java] [DEBUG] 	{} ürün seçilir : public void randomProductClick(String random)
+04-04-2022 16:31:02.724 [java] [DEBUG] 	Id li {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla : public void findByelementWithIdAndClick(String id)
+04-04-2022 16:31:02.724 [java] [DEBUG] 	Xpathli {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla : public void findByelementWithXpathAndClick(String xpath)
+04-04-2022 16:31:02.724 [java] [DEBUG] 	{} li element gorunur mu : public boolean isDisplayed(String xpath)
+04-04-2022 16:31:02.724 [java] [DEBUG] 	{} saniye kadar bekle : public void waitForsecond(ınt s) throws InterruptedException
+04-04-2022 16:31:02.724 [java] [DEBUG] 	Xpathli {} in texti alinir ve kontrol edilir : public void getTextWithXpath(String xpath)
+04-04-2022 16:31:02.724 [java] [DEBUG] 	Klavye kapatılır : public void klavyeKapat()
+04-04-2022 16:31:04.466 [Gauge] [DEBUG] Validation completed.
+04-04-2022 16:31:04.469 [java] [DEBUG] Killing Java runner...
+04-04-2022 16:31:04.471 [java] [DEBUG] Stopping execution pool...
+04-04-2022 16:31:04.471 [java] [DEBUG] Shutting down grpc server...
+04-04-2022 16:31:04.481 [java] [DEBUG] Runner killed gracefully.
+04-04-2022 16:31:05.194 [Gauge] [DEBUG] Runner with PID:14140 has exited
+04-04-2022 16:31:05.194 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-04-2022 16:33:59.148 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\testinium\Odev\.gauge\screenshots
+04-04-2022 16:33:59.168 [Gauge] [DEBUG] Plugin java is already installed.
+04-04-2022 16:33:59.174 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-04-2022 16:33:59.175 [Gauge] [DEBUG] Parsing started.
+04-04-2022 16:33:59.175 [Gauge] [DEBUG] Started concepts parsing.
+04-04-2022 16:33:59.178 [Gauge] [ERROR] [ParseError] C:\Users\testinium\Odev\specs\GirisSayfasi.cpt:14 Circular reference found in concept. "Klavye kapatılır" => C:\Users\testinium\Odev\specs\GirisSayfasi.cpt:13 => 'Klavye kapatılır'
+04-04-2022 16:33:59.178 [Gauge] [ERROR] [ParseError] C:\Users\testinium\Odev\specs\GirisSayfasi.cpt:13 Circular reference found in concept. "Klavye kapatılır" => C:\Users\testinium\Odev\specs\GirisSayfasi.cpt:14 => 'Klavye kapatılır'
+04-04-2022 16:33:59.178 [Gauge] [DEBUG] 7 concepts parsing completed.
+04-04-2022 16:33:59.178 [Gauge] [DEBUG] Started specifications parsing.
+04-04-2022 16:33:59.179 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-04-2022 16:33:59.179 [Gauge] [DEBUG] Parsing completed.
+04-04-2022 16:33:59.687 [java] [DEBUG] ***** Printing Properties/Env Values *****
+04-04-2022 16:33:59.687 [java] [DEBUG] PATH: C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Program Files (x86)\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\maven\apache-maven-3.8.5\bin;C:\Program Files\Gauge\bin;C:\Users\testinium\AppData\Local\Android\Sdk\platform-tools;C:\Users\testinium\AppData\Local\Android\Sdk\build-tools;C:\Users\testinium\AppData\Local\Android\Sdk\platforms;C:\Users\testinium\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\testinium\AppData\Local\GitHubDesktop\bin;C:\Users\testinium\AppData\Roaming\npm;%!A(MISSING)NDROID_HOME\platform-tools%!;(MISSING)%!A(MISSING)NDROID_HOME\tools%!;(MISSING)%!A(MISSING)NDROID_HOME\build-tools%!;(MISSING);C:\Users\testinium\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+04-04-2022 16:33:59.687 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk1.8.0_202
+04-04-2022 16:33:59.687 [java] [DEBUG] gauge_project_root: C:\Users\testinium\Odev
+04-04-2022 16:33:59.687 [java] [DEBUG] gauge_parallel_streams_count: 
+04-04-2022 16:33:59.687 [java] [DEBUG] gauge_reports_dir: reports
+04-04-2022 16:33:59.687 [java] [DEBUG] overwrite_reports: true
+04-04-2022 16:33:59.687 [java] [DEBUG] logs_directory: logs
+04-04-2022 16:33:59.687 [java] [DEBUG] enable_multithreading: 
+04-04-2022 16:33:59.687 [java] [DEBUG] gauge_specs_dir: specs
+04-04-2022 16:33:59.687 [java] [DEBUG] csv_delimiter: ,
+04-04-2022 16:33:59.687 [java] [DEBUG] gauge_java_home: 
+04-04-2022 16:33:59.687 [java] [DEBUG] gauge_custom_build_path: 
+04-04-2022 16:33:59.687 [java] [DEBUG] gauge_additional_libs: libs/*
+04-04-2022 16:33:59.687 [java] [DEBUG] gauge_jvm_args: 
+04-04-2022 16:33:59.687 [java] [DEBUG] gauge_custom_compile_dir: 
+04-04-2022 16:33:59.687 [java] [DEBUG] gauge_clear_state_level: scenario
+04-04-2022 16:33:59.687 [java] [DEBUG] ***** END *****
+04-04-2022 16:34:00.049 [Gauge] [DEBUG] Checking updates...
+04-04-2022 16:34:00.051 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-04-2022 16:34:00.748 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-04-2022 16:34:00.925 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-04-2022 16:34:01.107 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-04-2022 16:34:01.299 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-04-2022 16:34:03.026 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Users\testinium\Odev\target\test-classes;C:\Users\testinium\.m2\repository\com\thoughtworks\gauge\gauge-java\0.8.1\gauge-java-0.8.1.jar;C:\Users\testinium\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\testinium\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\testinium\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\testinium\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\testinium\.m2\repository\com\github\javaparser\javaparser-core\3.16.3\javaparser-core-3.16.3.jar;C:\Users\testinium\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\testinium\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\testinium\.m2\repository\org\json\json\20211205\json-20211205.jar;C:\Users\testinium\.m2\repository\com\google\protobuf\protobuf-java\3.19.3\protobuf-java-3.19.3.jar;C:\Users\testinium\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\testinium\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\testinium\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\testinium\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\testinium\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\testinium\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-netty-shaded\1.43.2\grpc-netty-shaded-1.43.2.jar;C:\Users\testinium\.m2\repository\io\perfmark\perfmark-api\0.23.0\perfmark-api-0.23.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-core\1.43.2\grpc-core-1.43.2.jar;C:\Users\testinium\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\testinium\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.19\animal-sniffer-annotations-1.19.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf\1.43.2\grpc-protobuf-1.43.2.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-api\1.43.2\grpc-api-1.43.2.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-context\1.43.2\grpc-context-1.43.2.jar;C:\Users\testinium\.m2\repository\com\google\api\grpc\proto-google-common-protos\2.0.1\proto-google-common-protos-2.0.1.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf-lite\1.43.2\grpc-protobuf-lite-1.43.2.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-stub\1.43.2\grpc-stub-1.43.2.jar;C:\Users\testinium\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\testinium\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\testinium\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\testinium\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\testinium\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\testinium\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\testinium\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\testinium\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\testinium\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\testinium\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\testinium\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\testinium\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\testinium\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\testinium\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\testinium\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\testinium\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\testinium\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\testinium\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\testinium\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\testinium\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\testinium\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\testinium\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+04-04-2022 16:34:03.123 [java] [DEBUG] found java executable in C:\Program Files\Java\jdk1.8.0_202\jre\bin\java.exe
+04-04-2022 16:34:03.123 [java] [DEBUG] running - C:\Program Files\Java\jdk1.8.0_202\jre\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+04-04-2022 16:34:03.123 [java] [DEBUG] stdout/stderr is logged to logs\3280-java.exe.out
+04-04-2022 16:34:03.329 [java] [DEBUG] multithreading is set to false
+04-04-2022 16:34:03.602 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+04-04-2022 16:34:06.556 [java] [DEBUG] gauge-java took 3225milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+04-04-2022 16:34:06.556 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 3225
+04-04-2022 16:34:06.556 [java] [DEBUG] starting gRPC server...
+04-04-2022 16:34:07.673 [java] [DEBUG] started gRPC server on port 51555
+04-04-2022 16:34:07.673 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 51555
+04-04-2022 16:34:08.089 [Gauge] [DEBUG] Successfully made the connection with runner with port: 51555
+04-04-2022 16:34:08.089 [Gauge] [DEBUG] Validation started.
+04-04-2022 16:34:09.982 [java] [DEBUG] Scanning packages for steps
+04-04-2022 16:34:10.035 [java] [DEBUG] Comparing 'BasePage.swipeUptwice' and 'BasePage.swipeUptwice'
+04-04-2022 16:34:10.036 [java] [DEBUG] Found Sayfayı aşağı doğru 2 kez kaydır in current project scope.
+04-04-2022 16:34:10.036 [java] [DEBUG] Comparing 'BasePage.findByelementWithIdAndClick' and 'BasePage.findByelementWithIdAndClick'
+04-04-2022 16:34:10.036 [java] [DEBUG] Found Id li {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla in current project scope.
+04-04-2022 16:34:10.036 [java] [DEBUG] Comparing 'BasePage.waitForsecond' and 'BasePage.waitForsecond'
+04-04-2022 16:34:10.036 [java] [DEBUG] Found {} saniye kadar bekle in current project scope.
+04-04-2022 16:34:10.036 [java] [DEBUG] Comparing 'LoginPage.klavyeKapat' and 'LoginPage.klavyeKapat'
+04-04-2022 16:34:10.037 [java] [DEBUG] Found Klavye kapatılır in current project scope.
+04-04-2022 16:34:10.037 [java] [DEBUG] Comparing 'LoginPage.yazdır' and 'LoginPage.yazdır'
+04-04-2022 16:34:10.037 [java] [DEBUG] Found {} yazılır in current project scope.
+04-04-2022 16:34:10.037 [java] [DEBUG] Comparing 'ProductPage.randomProductClick' and 'ProductPage.randomProductClick'
+04-04-2022 16:34:10.037 [java] [DEBUG] Found {} ürün seçilir in current project scope.
+04-04-2022 16:34:10.037 [java] [DEBUG] Comparing 'LoginPage.yaz' and 'LoginPage.yaz'
+04-04-2022 16:34:10.037 [java] [DEBUG] Found {} li elemente istenilen değer {} yazılır in current project scope.
+04-04-2022 16:34:10.037 [java] [DEBUG] Comparing 'ProductPage.getTextWithXpath' and 'ProductPage.getTextWithXpath'
+04-04-2022 16:34:10.037 [java] [DEBUG] Found Xpathli {} in texti alinir ve kontrol edilir in current project scope.
+04-04-2022 16:34:10.037 [java] [DEBUG] Comparing 'BasePage.swipeUp' and 'BasePage.swipeUp'
+04-04-2022 16:34:10.037 [java] [DEBUG] Found Sayfayı aşağı doğru kaydır in current project scope.
+04-04-2022 16:34:10.038 [java] [DEBUG] Comparing 'BasePage.findByelementWithXpathAndClick' and 'BasePage.findByelementWithXpathAndClick'
+04-04-2022 16:34:10.038 [java] [DEBUG] Found Xpathli {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla in current project scope.
+04-04-2022 16:34:10.038 [java] [DEBUG] Comparing 'BasePage.clickByxpath' and 'BasePage.clickByxpath'
+04-04-2022 16:34:10.038 [java] [DEBUG] Found Xpath {} li elementi bul ve tikla in current project scope.
+04-04-2022 16:34:10.038 [java] [DEBUG] Comparing 'ProductPage.isDisplayed' and 'ProductPage.isDisplayed'
+04-04-2022 16:34:10.038 [java] [DEBUG] Found {} li element gorunur mu in current project scope.
+04-04-2022 16:34:10.039 [java] [DEBUG] Comparing 'LoginPage.geriGit' and 'LoginPage.geriGit'
+04-04-2022 16:34:10.039 [java] [DEBUG] Found Geri gidilir in current project scope.
+04-04-2022 16:34:10.039 [java] [DEBUG] Scanning packages for hooks
+04-04-2022 16:34:10.061 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+04-04-2022 16:34:10.061 [java] [DEBUG] 	Sayfayı aşağı doğru kaydır : public void swipeUp()
+04-04-2022 16:34:10.062 [java] [DEBUG] 	{} yazılır : public void yazdır(String text)
+04-04-2022 16:34:10.062 [java] [DEBUG] 	Xpath {} li elementi bul ve tikla : public void clickByxpath(String xpath)
+04-04-2022 16:34:10.062 [java] [DEBUG] 	{} li elemente istenilen değer {} yazılır : public void yaz(String xpath, String text)
+04-04-2022 16:34:10.062 [java] [DEBUG] 	Geri gidilir : public void geriGit()
+04-04-2022 16:34:10.062 [java] [DEBUG] 	Sayfayı aşağı doğru 2 kez kaydır : public void swipeUptwice()
+04-04-2022 16:34:10.062 [java] [DEBUG] 	{} ürün seçilir : public void randomProductClick(String random)
+04-04-2022 16:34:10.062 [java] [DEBUG] 	Id li {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla : public void findByelementWithIdAndClick(String id)
+04-04-2022 16:34:10.062 [java] [DEBUG] 	Xpathli {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla : public void findByelementWithXpathAndClick(String xpath)
+04-04-2022 16:34:10.062 [java] [DEBUG] 	{} li element gorunur mu : public boolean isDisplayed(String xpath)
+04-04-2022 16:34:10.062 [java] [DEBUG] 	{} saniye kadar bekle : public void waitForsecond(ınt s) throws InterruptedException
+04-04-2022 16:34:10.062 [java] [DEBUG] 	Xpathli {} in texti alinir ve kontrol edilir : public void getTextWithXpath(String xpath)
+04-04-2022 16:34:10.062 [java] [DEBUG] 	Klavye kapatılır : public void klavyeKapat()
+04-04-2022 16:34:11.858 [Gauge] [DEBUG] Validation completed.
+04-04-2022 16:34:11.861 [java] [DEBUG] Killing Java runner...
+04-04-2022 16:34:11.862 [java] [DEBUG] Stopping execution pool...
+04-04-2022 16:34:11.863 [java] [DEBUG] Shutting down grpc server...
+04-04-2022 16:34:11.874 [java] [DEBUG] Runner killed gracefully.
+04-04-2022 16:34:12.486 [Gauge] [DEBUG] Runner with PID:3280 has exited
+04-04-2022 16:34:12.486 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-04-2022 16:43:33.211 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\testinium\Odev\.gauge\screenshots
+04-04-2022 16:43:33.225 [Gauge] [DEBUG] Plugin java is already installed.
+04-04-2022 16:43:33.231 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-04-2022 16:43:33.232 [Gauge] [DEBUG] Parsing started.
+04-04-2022 16:43:33.232 [Gauge] [DEBUG] Started concepts parsing.
+04-04-2022 16:43:33.252 [Gauge] [ERROR] [ParseError] C:\Users\testinium\Odev\specs\GirisSayfasi.cpt:14 Circular reference found in concept. "Klavye kapatılır" => C:\Users\testinium\Odev\specs\GirisSayfasi.cpt:13 => 'Klavye kapatılır'
+04-04-2022 16:43:33.252 [Gauge] [ERROR] [ParseError] C:\Users\testinium\Odev\specs\GirisSayfasi.cpt:13 Circular reference found in concept. "Klavye kapatılır" => C:\Users\testinium\Odev\specs\GirisSayfasi.cpt:14 => 'Klavye kapatılır'
+04-04-2022 16:43:33.252 [Gauge] [DEBUG] 8 concepts parsing completed.
+04-04-2022 16:43:33.252 [Gauge] [DEBUG] Started specifications parsing.
+04-04-2022 16:43:33.252 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-04-2022 16:43:33.252 [Gauge] [DEBUG] Parsing completed.
+04-04-2022 16:43:33.623 [java] [DEBUG] ***** Printing Properties/Env Values *****
+04-04-2022 16:43:33.624 [java] [DEBUG] PATH: C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Program Files (x86)\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\maven\apache-maven-3.8.5\bin;C:\Program Files\Gauge\bin;C:\Users\testinium\AppData\Local\Android\Sdk\platform-tools;C:\Users\testinium\AppData\Local\Android\Sdk\build-tools;C:\Users\testinium\AppData\Local\Android\Sdk\platforms;C:\Users\testinium\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\testinium\AppData\Local\GitHubDesktop\bin;C:\Users\testinium\AppData\Roaming\npm;%!A(MISSING)NDROID_HOME\platform-tools%!;(MISSING)%!A(MISSING)NDROID_HOME\tools%!;(MISSING)%!A(MISSING)NDROID_HOME\build-tools%!;(MISSING);C:\Users\testinium\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+04-04-2022 16:43:33.624 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk1.8.0_202
+04-04-2022 16:43:33.624 [java] [DEBUG] gauge_project_root: C:\Users\testinium\Odev
+04-04-2022 16:43:33.624 [java] [DEBUG] gauge_parallel_streams_count: 
+04-04-2022 16:43:33.624 [java] [DEBUG] gauge_reports_dir: reports
+04-04-2022 16:43:33.624 [java] [DEBUG] overwrite_reports: true
+04-04-2022 16:43:33.624 [java] [DEBUG] logs_directory: logs
+04-04-2022 16:43:33.624 [java] [DEBUG] enable_multithreading: 
+04-04-2022 16:43:33.624 [java] [DEBUG] gauge_specs_dir: specs
+04-04-2022 16:43:33.624 [java] [DEBUG] csv_delimiter: ,
+04-04-2022 16:43:33.624 [java] [DEBUG] gauge_java_home: 
+04-04-2022 16:43:33.624 [java] [DEBUG] gauge_custom_build_path: 
+04-04-2022 16:43:33.624 [java] [DEBUG] gauge_additional_libs: libs/*
+04-04-2022 16:43:33.624 [java] [DEBUG] gauge_jvm_args: 
+04-04-2022 16:43:33.624 [java] [DEBUG] gauge_custom_compile_dir: 
+04-04-2022 16:43:33.624 [java] [DEBUG] gauge_clear_state_level: scenario
+04-04-2022 16:43:33.624 [java] [DEBUG] ***** END *****
+04-04-2022 16:43:34.020 [Gauge] [DEBUG] Checking updates...
+04-04-2022 16:43:34.021 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-04-2022 16:43:34.671 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-04-2022 16:43:34.825 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-04-2022 16:43:34.995 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-04-2022 16:43:35.215 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-04-2022 16:43:36.448 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Users\testinium\Odev\target\test-classes;C:\Users\testinium\.m2\repository\com\thoughtworks\gauge\gauge-java\0.8.1\gauge-java-0.8.1.jar;C:\Users\testinium\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\testinium\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\testinium\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\testinium\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\testinium\.m2\repository\com\github\javaparser\javaparser-core\3.16.3\javaparser-core-3.16.3.jar;C:\Users\testinium\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\testinium\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\testinium\.m2\repository\org\json\json\20211205\json-20211205.jar;C:\Users\testinium\.m2\repository\com\google\protobuf\protobuf-java\3.19.3\protobuf-java-3.19.3.jar;C:\Users\testinium\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\testinium\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\testinium\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\testinium\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\testinium\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\testinium\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-netty-shaded\1.43.2\grpc-netty-shaded-1.43.2.jar;C:\Users\testinium\.m2\repository\io\perfmark\perfmark-api\0.23.0\perfmark-api-0.23.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-core\1.43.2\grpc-core-1.43.2.jar;C:\Users\testinium\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\testinium\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.19\animal-sniffer-annotations-1.19.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf\1.43.2\grpc-protobuf-1.43.2.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-api\1.43.2\grpc-api-1.43.2.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-context\1.43.2\grpc-context-1.43.2.jar;C:\Users\testinium\.m2\repository\com\google\api\grpc\proto-google-common-protos\2.0.1\proto-google-common-protos-2.0.1.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf-lite\1.43.2\grpc-protobuf-lite-1.43.2.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-stub\1.43.2\grpc-stub-1.43.2.jar;C:\Users\testinium\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\testinium\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\testinium\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\testinium\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\testinium\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\testinium\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\testinium\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\testinium\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\testinium\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\testinium\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\testinium\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\testinium\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\testinium\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\testinium\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\testinium\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\testinium\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\testinium\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\testinium\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\testinium\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\testinium\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\testinium\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\testinium\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\testinium\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+04-04-2022 16:43:36.511 [java] [DEBUG] found java executable in C:\Program Files\Java\jdk1.8.0_202\jre\bin\java.exe
+04-04-2022 16:43:36.511 [java] [DEBUG] running - C:\Program Files\Java\jdk1.8.0_202\jre\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+04-04-2022 16:43:36.511 [java] [DEBUG] stdout/stderr is logged to logs\4112-java.exe.out
+04-04-2022 16:43:36.697 [java] [DEBUG] multithreading is set to false
+04-04-2022 16:43:36.966 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+04-04-2022 16:43:39.556 [java] [DEBUG] gauge-java took 2857milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+04-04-2022 16:43:39.556 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 2857
+04-04-2022 16:43:39.556 [java] [DEBUG] starting gRPC server...
+04-04-2022 16:43:40.108 [java] [DEBUG] started gRPC server on port 49693
+04-04-2022 16:43:40.108 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49693
+04-04-2022 16:43:40.391 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49693
+04-04-2022 16:43:40.391 [Gauge] [DEBUG] Validation started.
+04-04-2022 16:43:42.127 [java] [DEBUG] Scanning packages for steps
+04-04-2022 16:43:42.147 [java] [DEBUG] Comparing 'BasePage.swipeUptwice' and 'BasePage.swipeUptwice'
+04-04-2022 16:43:42.147 [java] [DEBUG] Found Sayfayı aşağı doğru 2 kez kaydır in current project scope.
+04-04-2022 16:43:42.148 [java] [DEBUG] Comparing 'BasePage.findByelementWithIdAndClick' and 'BasePage.findByelementWithIdAndClick'
+04-04-2022 16:43:42.148 [java] [DEBUG] Found Id li {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla in current project scope.
+04-04-2022 16:43:42.148 [java] [DEBUG] Comparing 'BasePage.waitForsecond' and 'BasePage.waitForsecond'
+04-04-2022 16:43:42.148 [java] [DEBUG] Found {} saniye kadar bekle in current project scope.
+04-04-2022 16:43:42.148 [java] [DEBUG] Comparing 'LoginPage.klavyeKapat' and 'LoginPage.klavyeKapat'
+04-04-2022 16:43:42.148 [java] [DEBUG] Found Klavye kapatılır in current project scope.
+04-04-2022 16:43:42.148 [java] [DEBUG] Comparing 'LoginPage.yazdır' and 'LoginPage.yazdır'
+04-04-2022 16:43:42.148 [java] [DEBUG] Found {} yazılır in current project scope.
+04-04-2022 16:43:42.148 [java] [DEBUG] Comparing 'ProductPage.randomProductClick' and 'ProductPage.randomProductClick'
+04-04-2022 16:43:42.148 [java] [DEBUG] Found {} ürün seçilir in current project scope.
+04-04-2022 16:43:42.148 [java] [DEBUG] Comparing 'LoginPage.yaz' and 'LoginPage.yaz'
+04-04-2022 16:43:42.148 [java] [DEBUG] Found {} li elemente istenilen değer {} yazılır in current project scope.
+04-04-2022 16:43:42.148 [java] [DEBUG] Comparing 'ProductPage.getTextWithXpath' and 'ProductPage.getTextWithXpath'
+04-04-2022 16:43:42.148 [java] [DEBUG] Found Xpathli {} in texti alinir ve kontrol edilir in current project scope.
+04-04-2022 16:43:42.148 [java] [DEBUG] Comparing 'BasePage.swipeUp' and 'BasePage.swipeUp'
+04-04-2022 16:43:42.148 [java] [DEBUG] Found Sayfayı aşağı doğru kaydır in current project scope.
+04-04-2022 16:43:42.148 [java] [DEBUG] Comparing 'BasePage.findByelementWithXpathAndClick' and 'BasePage.findByelementWithXpathAndClick'
+04-04-2022 16:43:42.148 [java] [DEBUG] Found Xpathli {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla in current project scope.
+04-04-2022 16:43:42.149 [java] [DEBUG] Comparing 'BasePage.clickByxpath' and 'BasePage.clickByxpath'
+04-04-2022 16:43:42.149 [java] [DEBUG] Found Xpath {} li elementi bul ve tikla in current project scope.
+04-04-2022 16:43:42.149 [java] [DEBUG] Comparing 'ProductPage.isDisplayed' and 'ProductPage.isDisplayed'
+04-04-2022 16:43:42.149 [java] [DEBUG] Found {} li element gorunur mu in current project scope.
+04-04-2022 16:43:42.149 [java] [DEBUG] Comparing 'LoginPage.geriGit' and 'LoginPage.geriGit'
+04-04-2022 16:43:42.149 [java] [DEBUG] Found Geri gidilir in current project scope.
+04-04-2022 16:43:42.149 [java] [DEBUG] Scanning packages for hooks
+04-04-2022 16:43:42.156 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+04-04-2022 16:43:42.156 [java] [DEBUG] 	Sayfayı aşağı doğru kaydır : public void swipeUp()
+04-04-2022 16:43:42.157 [java] [DEBUG] 	{} yazılır : public void yazdır(String text)
+04-04-2022 16:43:42.157 [java] [DEBUG] 	Xpath {} li elementi bul ve tikla : public void clickByxpath(String xpath)
+04-04-2022 16:43:42.157 [java] [DEBUG] 	{} li elemente istenilen değer {} yazılır : public void yaz(String xpath, String text)
+04-04-2022 16:43:42.157 [java] [DEBUG] 	Geri gidilir : public void geriGit()
+04-04-2022 16:43:42.157 [java] [DEBUG] 	Sayfayı aşağı doğru 2 kez kaydır : public void swipeUptwice()
+04-04-2022 16:43:42.157 [java] [DEBUG] 	{} ürün seçilir : public void randomProductClick(String random)
+04-04-2022 16:43:42.157 [java] [DEBUG] 	Id li {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla : public void findByelementWithIdAndClick(String id)
+04-04-2022 16:43:42.157 [java] [DEBUG] 	Xpathli {} elemetin sayfada gorunur olduğunu kontrol et ve tıkla : public void findByelementWithXpathAndClick(String xpath)
+04-04-2022 16:43:42.157 [java] [DEBUG] 	{} li element gorunur mu : public boolean isDisplayed(String xpath)
+04-04-2022 16:43:42.157 [java] [DEBUG] 	{} saniye kadar bekle : public void waitForsecond(ınt s) throws InterruptedException
+04-04-2022 16:43:42.157 [java] [DEBUG] 	Xpathli {} in texti alinir ve kontrol edilir : public void getTextWithXpath(String xpath)
+04-04-2022 16:43:42.157 [java] [DEBUG] 	Klavye kapatılır : public void klavyeKapat()
+04-04-2022 16:43:44.270 [Gauge] [DEBUG] Validation completed.
+04-04-2022 16:43:44.272 [java] [DEBUG] Killing Java runner...
+04-04-2022 16:43:44.274 [java] [DEBUG] Stopping execution pool...
+04-04-2022 16:43:44.274 [java] [DEBUG] Shutting down grpc server...
+04-04-2022 16:43:44.280 [java] [DEBUG] Runner killed gracefully.
+04-04-2022 16:43:44.907 [Gauge] [DEBUG] Runner with PID:4112 has exited
+04-04-2022 16:43:44.907 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.

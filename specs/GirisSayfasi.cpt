@@ -1,0 +1,16 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Login sayfasında olduğumuz kontrol edilip bilgiler girilir
+*Xpathli "//*[@class='android.view.ViewGroup']/android.widget.LinearLayout[1]" elemetin sayfada gorunur olduğunu kontrol et ve tıkla
+*"2" saniye kadar bekle
+//*"//*[@class='android.view.ViewGroup']/android.widget.LinearLayout[1]" li elemente istenilen değer "text" yazılır
+*"text" yazılır
+*"2" saniye kadar bekle
+*Xpathli "//*[@class='android.view.ViewGroup']/android.widget.LinearLayout[2]" elemetin sayfada gorunur olduğunu kontrol et ve tıkla
+*"sifre" yazılır
+*"2" saniye kadar bekle
+#Klavye kapatılır
+*Klavye kapatılır
+#Ürünler sayfasına dönülür
+*Geri gidilir

@@ -1,0 +1,9 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+#kot sayfasinda oldugumuz kontrol edilir
+*"2" saniye kadar bekle
+*"//*[@class='android.widget.RelativeLayout']/android.widget.TextView" li element gorunur mu
+#Random ürün secimi yapilir
+*"com.ozdilek.ozdilekteyim:id/imageView" ürün seçilir
+
